@@ -197,14 +197,4 @@ h1 {
     .calculator {
         padding: 20px;
     }
-
-    .input-with-select {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .input-with-select select {
-        flex: none;
-        width: 100%;
-    }
 }
