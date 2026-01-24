@@ -156,6 +156,27 @@ h1 {
     height: 100% !important;
 }
 
+.site-footer {
+    text-align: center;
+    padding: 15px 20px;
+    border-top: 1px solid #2f3640;
+}
+
+.site-footer form {
+    display: inline-block;
+}
+
+.site-footer input[type="image"] {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.site-footer input[type="image"]:hover {
+    opacity: 0.8;
+}
+
 /* Desktop: keep no scroll */
 @media (min-width: 901px) {
     body {
