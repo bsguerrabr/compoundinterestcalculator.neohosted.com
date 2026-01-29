@@ -161,12 +161,12 @@ h1 {
     margin-top: 12px;
 }
 
-.paypal-donate input[type="image"] {
+.paypal-donate a img {
     cursor: pointer;
     transition: opacity 0.2s;
 }
 
-.paypal-donate input[type="image"]:hover {
+.paypal-donate a img:hover {
     opacity: 0.8;
 }
 
