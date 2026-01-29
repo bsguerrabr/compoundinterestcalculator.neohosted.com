@@ -122,7 +122,7 @@ h1 {
 }
 
 .results {
-    margin-top: auto;
+    margin-top: 12px;
     padding-top: 12px;
     border-top: 2px solid #2f3640;
 }
@@ -156,24 +156,17 @@ h1 {
     height: 100% !important;
 }
 
-.site-footer {
+.paypal-donate {
     text-align: center;
-    padding: 15px 20px;
-    border-top: 1px solid #2f3640;
+    margin-top: 12px;
 }
 
-.site-footer form {
-    display: inline-block;
-}
-
-.site-footer input[type="image"] {
-    height: 40px;
-    width: auto;
+.paypal-donate input[type="image"] {
     cursor: pointer;
     transition: opacity 0.2s;
 }
 
-.site-footer input[type="image"]:hover {
+.paypal-donate input[type="image"]:hover {
     opacity: 0.8;
 }
 
